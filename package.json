@@ -1,0 +1,18 @@
+{
+    "name": "hello-rabbitmq",
+    "version": "1.0.0",
+    "description": "",
+    "main": "publisher.js",
+    "dependencies": {
+        "amqplib": "^0.6.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "publish": "node publisher.js",
+        "consume": "node consumer.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
